@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # start.cgi
-# Start the tomcat daemon
+# Start up the tomcat daemon
 
 require './tomcat-lib.pl';
 &ReadParse();

@@ -34,7 +34,7 @@ sub get_tomcat_version
 	local $out = &backquote_command(
 					&quote_path($config{'tomcat_path'})." version 2>&1 </dev/null");
 	if ($out =~ /(Server\s+version:\s+([a-zA-Z\s]+)\/([0-9\.]+))/i) {
-		# Classic commercial SSH
+		
 		$version{'type'} = $2;
 		$version{'number'} = $3;
 		$version{'full'} = $1;

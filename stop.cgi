@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Stop the tomcat daemon
+# Stop the tomcat daemon from running
 
 require './tomcat-lib.pl';
 &ReadParse();
